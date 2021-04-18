@@ -14,7 +14,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - TZ=America/Chicago
     volumes:
       - <path to config>:/config
       - <path to data>:/data
@@ -28,7 +28,7 @@ services:
   --name=wikijs \
   -e PUID=1000 \
   -e PGID=1000 \
-  -e TZ=Europe/London \
+  -e TZ=America/Chicago \
   -p 3000:3000 \
   -v <path to config>:/config \
   -v <path to data>:/data \
