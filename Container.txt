@@ -5,7 +5,7 @@ services:
     image: linuxserver/wikijs
     container_name: WikiJS
     environment:
-      - PUID=1990
+      - PUID=900
       - PGID=1000
       - TZ=America/Chicago
     volumes:
